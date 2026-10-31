@@ -6,3 +6,116 @@
 /* v0.5.0-beta promotional artwork */
 .xarch-gallery .xarch-promo-item{grid-column:1/-1}
 .xarch-gallery .xarch-promo-item img{width:100%;height:auto;max-height:460px;object-fit:contain}
+
+
+/* X-ARCH PREMIUM REDESIGN v0.5.0-beta */
+.xarch-premium{
+  display:block;
+  background:#101116;
+  border:1px solid #ffffff24;
+}
+.xarch-intro{
+  display:grid;
+  grid-template-columns:minmax(0,1.4fr) minmax(280px,1fr);
+  gap:36px;
+  align-items:center;
+  padding:clamp(28px,4vw,64px);
+  border-bottom:1px solid #ffffff1c;
+}
+.xarch-intro-copy h3{
+  font-size:clamp(36px,4vw,64px);
+  line-height:1.02;
+  letter-spacing:-.045em;
+  margin:18px 0 24px;
+}
+.xarch-intro-copy p{
+  max-width:720px;
+  color:#c1c3cd;
+}
+.xarch-downloads{
+  padding:28px;
+  background:linear-gradient(145deg,#1b151d,#101116);
+  border:1px solid #ffffff20;
+}
+.xarch-download-label{
+  color:#ff8791;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.16em;
+}
+.xarch-downloads .actions{
+  gap:14px;
+  margin-top:20px;
+}
+.xarch-showcase{
+  padding:clamp(16px,2.5vw,38px);
+}
+.xarch-showcase figure{
+  margin:0;
+  min-width:0;
+  overflow:hidden;
+  background:#090a0e;
+  border:1px solid #ffffff24;
+}
+.xarch-showcase img{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+.xarch-featured{
+  margin-bottom:18px!important;
+}
+.xarch-featured img{
+  max-height:650px;
+}
+.xarch-showcase figcaption{
+  padding:14px;
+  color:#adb0bd;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.12em;
+  text-align:center;
+}
+.xarch-screen-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+.xarch-screen-grid img{
+  height:310px;
+  object-fit:contain;
+}
+.xarch-archive{
+  margin-top:20px;
+  border:1px solid #ffffff20;
+  background:#0c0d12;
+}
+.xarch-archive summary{
+  cursor:pointer;
+  padding:16px 20px;
+  color:#adb0bd;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.08em;
+}
+.xarch-archive figure{
+  max-width:760px;
+  margin:0 auto 20px;
+}
+.xarch-archive img{
+  max-height:350px;
+}
+@media(max-width:850px){
+  .xarch-intro{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+  .xarch-screen-grid{
+    grid-template-columns:1fr;
+  }
+  .xarch-screen-grid img{
+    height:auto;
+    max-height:420px;
+  }
+}
