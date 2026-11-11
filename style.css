@@ -119,3 +119,16 @@
     max-height:420px;
   }
 }
+
+/* RWR PACKAGE INTELLIGENCE — first project card */
+.rwr-package-card{margin-bottom:0}
+.rwr-package-card .project-visual{background:#080d0b;min-height:0}
+.rwr-package-card .project-visual img{height:auto;max-width:100%}
+.rwr-package-card .project-info{background:linear-gradient(145deg,#111b17,#101116)}
+.rwr-package-card .status{color:#8ef0a8}
+.project-card[id]{scroll-margin-top:100px}
+.rwr-package-card .project-visual img{object-fit:contain;height:auto}
+.rwr-screenshot{margin:0 0 28px;padding:20px;background:#0d0d11;border:1px solid #ffffff18;border-top:0;text-align:center}
+.rwr-screenshot img{display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border:1px solid #ffffff24}
+.rwr-screenshot figcaption{padding-top:12px;color:#adb0bd;font-size:10px;font-weight:800;letter-spacing:.12em}
+@media(max-width:850px){.rwr-screenshot{padding:12px}}
